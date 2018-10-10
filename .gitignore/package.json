@@ -2,7 +2,7 @@
   "name": "aoi-futaba-bot",
   "version": "1.0.0",
   "description": "Le tout premier bot de Virgile \"VILE\" !",
-  "main": "main.js",
+  "main": "index.js",
   "dependencies": {
     "discord.js": "^11.4.2"
   },
