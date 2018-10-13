@@ -26,7 +26,7 @@ bot.on('message', message => {
     if (message.content === prefix + "aide"){
         var aide_embed = new Discord.RichEmbed()
         .setColor('#bec0e8')
-        .addField("Liste des commandes disponibles :"," /aide : envoi la liste des commandes (MP) \n /data : données d'utilisateur (MP) \n /knuckles (suivi d'une phrase) : ajoute un & Knuckles \n /perso (suivi d'un nom) : enregistre le nom de votre personnage préféré \n /perso_de (suivi ou nom d'un utilisateur) : révèle le nom du personnage préféré par l'utilisateur ciblé \n /robotnik (suivi d'une phrase) : RRRRRRRRRRRobotnik! \n /trap : affiche une surprise")  
+        .addField("Liste des commandes disponibles :"," /aide : envoi la liste des commandes (MP) \n /data : données d'utilisateur (MP) \n /knuckles (suivi d'une phrase) : ajoute un & Knuckles \n /perso (suivi d'un nom) : enregistre le nom de votre personnage préféré \n /perso_de (suivi ou non d'un utilisateur) : révèle le nom du personnage préféré par l'utilisateur ciblé \n /robotnik (suivi d'une phrase) : RRRRRRRRRRRobotnik! \n /trap : affiche une surprise")  
         //message.channel.sendEmbed(aide_embed);
         message.reply("je t'ai envoyée la liste des commandes en MP.")
         message.author.send({embed: aide_embed});
